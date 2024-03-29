@@ -1,0 +1,19 @@
+### GET ALL request with a header
+GET http://localhost:8081/api/v1/items
+Accept: application/json
+
+### GET request with a header
+GET http://localhost:8081/api/v1/items/2
+Accept: application/json
+
+### Send POST request with json body
+POST http://localhost:8081/api/v1/items
+Content-Type: application/json
+
+{
+  "id": "4",
+  "name": "name4",
+  "code": "000004",
+  "description": "d4"
+}
+
